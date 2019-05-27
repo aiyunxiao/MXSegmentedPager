@@ -21,9 +21,8 @@
 // THE SOFTWARE.
 
 #import <UIKit/UIKit.h>
-#import <HMSegmentedControl/HMSegmentedControl.h>
-#import <MXPagerView/MXPagerView.h>
-#import <MXParallaxHeader/MXParallaxHeader.h>
+#import "MXPagerView.h"
+#import "MXParallaxHeader.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -41,7 +40,7 @@ typedef NS_ENUM(NSInteger, MXSegmentedControlPosition) {
 };
 
 @class MXSegmentedPager;
-
+@class HMSegmentedControl;
 /**
  The delegate of a MXSegmentedPager object may adopt the MXSegmentedPagerDelegate protocol. Optional methods of the protocol allow the delegate to manage selections.
  */
